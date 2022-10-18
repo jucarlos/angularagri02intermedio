@@ -4,7 +4,8 @@
 1. Instalar bootstrap.
 2. Estructura de la app. ( carpetas, módulos, etc )
 
-```ng g m pipes ``
+- creando el módulo de pipes
+```ng g m pipes ```
 
 
 3. Rutas de la app  ej. host/RUTA. 

@@ -1,0 +1,24 @@
+
+<div class="card" style="width: 18rem;">
+    <img src="assets/img/logo.svg.png" 
+         class="w150">
+    <div class="card-body">
+      <h5 class="card-title"> {{ temaDelaTarjeta.titulo }} </h5>
+      <p class="card-text"> {{ temaDelaTarjeta.contenido }} </p>
+      
+      <p class="text-primary">{{ temaDelaTarjeta.meGusta }} - Me Gusta</p>
+
+
+      <i (click)="meGusta()"
+        [ngClass]="temaDelaTarjeta.meGusta === 0 ? 
+                            'bi bi-hand-thumbs-up' : 
+                            'bi bi-hand-thumbs-up-fill' "
+        >
+      </i>
+
+
+      <!-- <i class=""></i> -->
+
+    </div>
+
+  </div>

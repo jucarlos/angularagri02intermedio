@@ -10,6 +10,11 @@
 
 3. Rutas de la app  ej. host/RUTA. 
 4. Reutilización de componentes.
+
+- Hemos utilizado ngClass
+
 5. Pipes .   
+
 6. Preparar y desplegar para producción.
-6. Tabla con paises .
+
+

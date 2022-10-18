@@ -1,10 +1,20 @@
 
 
-<div *ngFor="let num of [1,2,3,4]">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
 
-    <h3>Hola </h3>
+
+    <div class="col" *ngFor="let tema of temario">
+
+      <app-tarjeta [temaDelaTarjeta]="tema"
+        (meGustaEmiter)="meGusta( $event )"
+        ></app-tarjeta>
       
-</div>
+      
+    </div>
+  </div>
+
+
+
 
 
 

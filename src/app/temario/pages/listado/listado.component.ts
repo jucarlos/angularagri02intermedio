@@ -15,6 +15,7 @@ export class ListadoComponent implements OnInit {
 
   ngOnInit(): void {
     this.temario = TEMARIO;
+ 
   }
 
 }

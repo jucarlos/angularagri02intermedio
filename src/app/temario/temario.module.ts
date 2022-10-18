@@ -7,8 +7,8 @@ import { ListadoComponent } from './pages/listado/listado.component';
     declarations: [
     ListadoComponent
   ],
-    imports: [
-        CommonModule
-    ]
+  imports: [
+     CommonModule
+  ]
 })
 export class TemarioModule { }

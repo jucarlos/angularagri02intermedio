@@ -1,11 +1,11 @@
 import { Tema } from '../interfaces/tema-interface';
 
 
-export const TEMARIO: Tema[]  = [
+export const TEMARIO: Tema[] = [
           {
                 titulo: 'Estructura',
                 contenido: 'Estructura de una aplicación angular',
-                meGusta: 0,
+                meGusta: 0
           },
           {
                 titulo: 'Componentes',

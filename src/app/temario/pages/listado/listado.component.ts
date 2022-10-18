@@ -20,6 +20,7 @@ export class ListadoComponent implements OnInit {
 
   meGusta( event: number) {
     console.log('Evento desde la tarjeta');
+    
   }
 
 }

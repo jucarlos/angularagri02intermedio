@@ -6,8 +6,9 @@
     <div class="col" *ngFor="let tema of temario">
 
       <app-tarjeta [temaDelaTarjeta]="tema"
-        (meGustaEmiter)="meGusta( $event )"
-        ></app-tarjeta>
+            (meGustaEmiter)="meGusta( $event )"
+        >
+      </app-tarjeta>
       
       
     </div>

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { MenuModule } from './menu/menu.module';
+import { PipesModule } from './pipes/pipes.module';
 import { TemarioModule } from './temario/temario.module';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { TemarioModule } from './temario/temario.module';
     AppRoutingModule,
     MenuModule,
     TemarioModule,
+    PipesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

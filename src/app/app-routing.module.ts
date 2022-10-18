@@ -14,6 +14,10 @@ const rutas: Routes = [
         path: 'temario',
         component: ListadoComponent
     },
+    {
+        path: 'pipes',
+        loadChildren: () => import('./pipes/pipes.module').then( m => m.PipesModule),
+    },
 
     {
         path: '**',

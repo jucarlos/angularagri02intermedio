@@ -14,6 +14,12 @@
 - Hemos utilizado ngClass
 
 5. Pipes .   
+- Creamos un nuevo módulo llamado pipes e incluimos rutas hijas.
+
+```ng g m pipes --routing ```
+
+```ng g c pipes/pages/home ```
+
 
 6. Preparar y desplegar para producción.
 

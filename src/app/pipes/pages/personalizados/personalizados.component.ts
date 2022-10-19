@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalizadosComponent implements OnInit {
 
+  frase = 'En un lugar de la mancha de cuyo nombre';
+
   constructor() { }
 
   ngOnInit(): void {

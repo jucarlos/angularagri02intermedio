@@ -22,5 +22,17 @@
 
 
 6. Preparar y desplegar para producción.
+```ng build ```
+
+7. Pipes. 
+Son mecanismos para cambiar la forma de ver la informaión.
+No cambia los datos.
+
+Pipe personalizado:
+
+``` ng g p pipes/pipes/alreves ```
+¿Como comprobar si lo que voy a ejecutar está bien --dry-run
+
+
 
 

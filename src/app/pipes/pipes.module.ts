@@ -6,6 +6,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ComunesComponent } from './pages/comunes/comunes.component';
 import { AvanzadosComponent } from './pages/avanzados/avanzados.component';
 import { PersonalizadosComponent } from './pages/personalizados/personalizados.component';
+import { AlrevesPipe } from './pipes/alreves.pipe';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PersonalizadosComponent } from './pages/personalizados/personalizados.c
     HomeComponent,
     ComunesComponent,
     AvanzadosComponent,
-    PersonalizadosComponent
+    PersonalizadosComponent,
+    AlrevesPipe
   ],
   imports: [
     CommonModule,

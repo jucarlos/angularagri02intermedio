@@ -1,36 +1,39 @@
+<div class="animate__animated animate__fadeIn">
 
 
-<h1>Pipes</h1>
-<hr/>
-
-<div class="row">
-    <div class="col-md-4">
-
-        <ul class="list-group">
-
-            <li class="list-group-item"
-                routerLinkActive="active"
-                routerLink="comunes"    
-                >Comunes</li>
-            <li class="list-group-item"
-                routerLinkActive="active"
-                routerLink="avanzados"
-                >Avanzados</li>
-            <li class="list-group-item"
-                routerLinkActive="active"
-                routerLink="personalizados"
-                >Personalizados</li>
-
-        </ul>
-
-
+    <h1>Pipes</h1>
+    <hr/>
+    
+    <div class="row">
+        <div class="col-md-4">
+    
+            <ul class="list-group">
+    
+                <li class="list-group-item"
+                    routerLinkActive="active"
+                    routerLink="comunes"    
+                    >Comunes</li>
+                <li class="list-group-item"
+                    routerLinkActive="active"
+                    routerLink="avanzados"
+                    >Avanzados</li>
+                <li class="list-group-item"
+                    routerLinkActive="active"
+                    routerLink="personalizados"
+                    >Personalizados</li>
+    
+            </ul>
+    
+    
+        </div>
+    
+        <div class="col">
+    
+            <router-outlet></router-outlet>
+    
+        </div>
+    
+    
     </div>
-
-    <div class="col">
-
-        <router-outlet></router-outlet>
-
-    </div>
-
 
 </div>

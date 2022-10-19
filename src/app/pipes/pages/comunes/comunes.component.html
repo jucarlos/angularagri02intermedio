@@ -1,1 +1,97 @@
-<p>comunes works!</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Valor</th>
+            <th>Pipe</th>
+            <th>Resultado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ nombre }}</td>
+            <td>UpperCasePipe</td>
+            <td>{{ nombre | uppercase}}</td>
+        </tr>
+
+        <tr>
+            <td>{{ nombre }}</td>
+            <td>titlecase</td>
+            <td>{{ nombre | titlecase}}</td>
+        </tr>
+
+
+        <tr>
+            <td>{{ nombre }}</td>
+            <td> LowerCasePipe</td>
+            <td>{{ nombre | lowercase }}</td>
+        </tr>
+
+        <tr>
+            <td>{{ precio }}</td>
+            <td> DecimalPipe </td>
+            <td>{{ precio | number }}</td>
+        </tr>
+
+        <tr>
+            <td>{{ precio }}</td>
+            <td> DecimalPipe </td>
+            <td>{{ precio | number:'.1-2' }}</td>
+        </tr>
+
+
+        <tr>
+            <td>{{ precio }}</td>
+            <td> CurrencyPipe </td>
+            <td>{{ precio | currency}}</td>
+        </tr>
+
+        <tr>
+            <td>{{ precio }}</td>
+            <td> CurrencyPipe </td>
+            <td>{{ precio | currency:'EUR'}}</td>
+        </tr>
+
+        <tr>
+            <td>{{ fecha }}</td>
+            <td> DatePipe </td>
+            <td>{{ fecha | date }}</td>
+        </tr>
+
+        <tr>
+            <td>{{ fecha }}</td>
+            <td> DatePipe </td>
+            <td>{{ fecha | date:'fullDate' }}</td>
+        </tr>
+
+        <tr>
+            <td>{{ fecha }}</td>
+            <td> DatePipe </td>
+            <td>{{ fecha | date:'fullDate' }}</td>
+        </tr>
+
+        <tr>
+            <td>{{ fecha }}</td>
+            <td> DatePipe </td>
+            <td>{{ fecha | date:'long' }}</td>
+        </tr>
+
+        <tr>
+            <td>{{ fecha }}</td>
+            <td> DatePipe - Francés </td>
+            <td>{{ fecha | date:'long':'':'fr' }}</td>
+        </tr>
+
+        <tr>
+            <td>{{ fecha }}</td>
+            <td> DatePipe </td>
+            <td>{{ fecha | date:'long':'GMT-5' }}</td>
+        </tr>
+
+        
+
+
+    </tbody>
+
+</table>

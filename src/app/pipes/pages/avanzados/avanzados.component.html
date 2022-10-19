@@ -1,1 +1,20 @@
-<p>avanzados works!</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>Pipe</td>
+            <td>Resultado</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>i18nSelect</td>
+            <td>Hola {{ persona.nombre }} está usted {{ persona.sexo | i18nSelect:generoMap }} a la celebración</td>
+        </tr>
+        <tr>
+            <td>i18nPlural</td>
+            <td>{{ alumnos.length | i18nPlural:alumnosMap }} </td>
+        </tr>
+    </tbody>
+</table>

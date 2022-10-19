@@ -11,6 +11,9 @@ import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
   ],
   imports: [
      CommonModule
+  ],
+  exports: [
+    TarjetaComponent
   ]
 })
 export class TemarioModule { }
